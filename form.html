@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="login-wrapper">
+    <h1>Candidate submission</h1>
+    <form method="post">
+      <label>Firstname</label>
+      <input type="text" class="login-firstname"/>
+      <label>Lastname</label>
+      <input type="text" class="login-lastname"/>
+      <label>Email</label>
+      <input type="text" class="login-email"/>
+      <label>Mobile</label>
+      <input type="text" class="login-phone"/>
+      <label>Check-in</label>
+      <input type="time" class="login-checkin"/>
+      <label>Check-out</label>
+      <input type="time" class="login-checkout"/>
+      <button type="button" class="btn-login" onclick="saveInfoInterviewee()">Submit</button>
+      <div id="error"></div>
+    </form>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

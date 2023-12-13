@@ -1,0 +1,135 @@
+body{
+ background-image:url("../images/hr_bg.jpg");
+ background-size:cover
+}
+
+.login-wrapper{
+  width:30%;
+  height:auto;
+  border:1px solid lightgray;
+  margin:auto;
+  background-color:burlywood;
+  margin-top:15%;
+}
+
+.login-wrapper > h1{
+  text-align:center;
+  color:brown
+}
+
+.login-wrapper > form > label{
+  margin:12px;
+  font-size:20px;
+  color:#fff;
+}
+
+.login-wrapper > form > .login-input{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   cursor:pointer;
+   margin:10px;
+}
+
+.login-wrapper > form > .login-password{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+}
+
+.btn-login{
+  width:30%;
+  height:25px;
+  border-radius:20px;
+  margin:12px;
+  border:none;
+  cursor:pointer;
+  background-color:blueviolet;
+  color:#fff;
+  font-size:15px;
+  margin-left:60%;
+}
+
+form{
+  border:1px solid lightgray;
+  margin:12px;
+  background-color:gray;
+}
+
+p{
+  margin:10px;
+  color:red;
+}
+
+.login-wrapper > form > .login-email{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:11%;
+ }
+
+.login-wrapper > form > .login-phone{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:8%; 
+}
+
+.login-wrapper > form > .login-checkin{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:4%;
+ }
+
+.login-wrapper > form > .login-checkout{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:1%;
+ }
+
+.login-wrapper > form > .login-firstname{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:1%;
+ }
+
+.login-wrapper > form > .login-lastname{
+   width:60%;
+   height:25px;
+   border-radius:20px;
+   border:none;
+   margin:12px;
+   margin-left:2%;
+ }
+
+ .candidate{
+   font-size:20px;
+   margin:12px;
+   color:#fff;
+ }
+
+ .info{
+   color:blanchedalmond;
+   font-size:17px;
+   font-weight:bold;
+ }
+
+ a{
+  text-decoration:none;
+ }
