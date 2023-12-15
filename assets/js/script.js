@@ -84,7 +84,7 @@ function getInfoCandidateInDetail(){
   let showCheckIn = localStorage.getItem("checkin")
   let showCheckOut = localStorage.getItem("checkout")
   let output = "<label>"
-   output += `<div class="candidate">
+   output = `<div class="candidate">
         Firstname: 
         <span class="info">${showFirstName}</span>
         <br/> Lastname: <span class="info">${showLastName}</span>
