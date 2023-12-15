@@ -133,3 +133,27 @@ p{
  a{
   text-decoration:none;
  }
+
+ @media screen and (max-width:576px){
+    .login-wrapper{
+      width:92%;
+      margin-top:40%;
+    }
+
+   .login-wrapper > form > .login-input{
+      width:92%
+    }
+
+   .login-wrapper > form > .login-password{
+      width:92%
+    }
+
+    .btn-login{
+      margin-left:66%;
+      width:27%;
+    }
+
+    form{
+     margin:0;
+    }
+ }
